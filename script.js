@@ -15,6 +15,10 @@ function createMessage() {
   var message = prompt("What do you want to tell us?");
   var name = prompt("What is your name?");
 
+  if (message == null || name == null) {
+    return;
+  }
+
   newChild.innerHTML =
     '<div class="top">' +
     '<div class="name">' +
@@ -30,7 +34,7 @@ function createMessage() {
     '"' +
     ">" +
     likes +
-    "like(s)</p>" +
+    "<p>like(s)</p></p>" +
     "<button onclick=" +
     "increase" +
     '("#like' +
