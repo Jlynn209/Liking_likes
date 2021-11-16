@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liking likes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- start of navbar -->
+      <div class="navbar">
+        <h1>Network</h1>
+      </div>
+      <!-- end of navbar -->
+      <!-- Title -->
+      <h1 class="feed">Your Feed</h1>
+      <!-- end of Title -->
+      <div class="sub-container">
+        <!-- start of left container -->
+        <div class="left-container">
+          <div class="profile">
+            <div class="img">
+              <img src="pngegg.png" alt="free avatar img" />
+            </div>
+            <div class="changeimg">
+              <a href="#">Change an avatar</a>
+            </div>
+            <div class="name">
+              <p>John Doe</p>
+            </div>
+          </div>
+        </div>
+        <!-- end of left container -->
+        <!-- start of right container -->
+        <div class="right-container">
+          <div class="comment-container">
+            <div class="top">
+              <div class="name">
+                <p>Neil M</p>
+              </div>
+              <div class="likes">
+                <p id="like1">9 <p>like(s)</p></p>
+                <button onclick="increase('#like1')">Like</button>
+              </div>
+            </div>
+            <div class="bottom">
+              <div class="message">
+                <p>
+                  I just set up this new discord bot, let me know what you all
+                  think <a href="#">link</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="comment-container">
+            <div class="top">
+              <div class="name">
+                <p>Nichole K</p>
+              </div>
+              <div class="likes">
+                <p id="like2">12 <p>like(s)</p></p>
+                <button onclick="increase('#like2')">Like</button>
+              </div>
+            </div>
+            <div class="bottom">
+              <div class="message">
+                <p>
+                  Just finished my <a href="#">next comic</a><p>, check it out.</p>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="comment-container">
+            <div class="top">
+              <div class="name">
+                <p>Jim R</p>
+              </div>
+              <div class="likes">
+                <p id="like3">9 <p>like(s)</p></p>
+                <button onclick="increase('#like3')">Like</button>
+              </div>
+            </div>
+            <div class="bottom">
+              <div class="message">
+                <p>
+                  I can't stop listening to the <a href="#">new album.</a> <p>Who else is liking it?</p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of right container -->
+      </div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

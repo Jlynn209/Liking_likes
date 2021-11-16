@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  height: 0px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin-left: 10vw;
+  height: 100vh;
+}
+
+.sub-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* start of feed bar */
+.main-container .feed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+
+/* end of feed bar */
+
+/* start of navbar */
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 6%;
+  background-color: black;
+}
+
+.navbar h1 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+
+/* End of navbar */
+/* Start of left container*/
+.left-container {
+  display: flex;
+  height: 100%;
+  width: 30%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 50%;
+  border: 2px solid black;
+}
+
+.profile .img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+}
+
+.img img {
+  width: 50%;
+  height: 100%;
+}
+
+.profile .changeimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+}
+
+.profile .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+}
+/* end of left container */
+/* start of right container */
+.right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  width: 70%;
+  height: 100%;
+}
+
+.right-container .comment-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  height: 40%;
+  border: 2px solid black;
+}
+
+.comment-container .top {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 40%;
+}
+
+.top .name {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+
+.name p {
+  width: 40%;
+  height: 20%;
+}
+
+.top .likes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  height: 100%;
+}
+
+.likes p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 20%;
+  font-size: 25px;
+}
+
+.likes button {
+  width: 40%;
+  height: 40%;
+  background-color: rgb(255, 217, 102);
+  border: 4px solid black;
+  box-shadow: 5px 5px 5px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.comment-container .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+}
+
+.bottom .message{
+    display: flex;
+}
+
+/* end of right container */
