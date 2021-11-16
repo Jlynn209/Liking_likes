@@ -17,6 +17,8 @@ function createMessage() {
 
   if (message == null || name == null) {
     return;
+  } else if (message == "" || name == "") {
+    return;
   }
 
   newChild.innerHTML =
